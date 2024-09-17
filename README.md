@@ -91,13 +91,12 @@ y2 - - - - - - - - - - - - - - - - - - +
                |                       |
                x1                      x2
 ```
-
+- 台形の式を使用：((water_level - y1) + (water_level - y2)) * (x2 - x1) * 0.5
 ```python
 if y1 <= water_level and y2 <= water_level:
    # 両点が水面下
    return 0.5 * (x2 - x1) * (2 * water_level - y1 - y2)
 ```
-- 台形：((water_level - y1) + (water_level - y2)) * (x2 - x1) * 0.5
 
 
 - 片方が水面上、片方が水面下
