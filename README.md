@@ -12,7 +12,8 @@
 - 右岸側：Rkata
 
 ![図1](https://github.com/user-attachments/assets/f54deb32-7af6-4984-af1e-9963dda1eec4)
-- 図　河道断面における水が流れる範囲の設定例
+
+ 図　河道断面における水が流れる範囲の設定例
 
 ### 1Ddmn.dat
 
@@ -21,13 +22,17 @@
 - Lkata、Rkata：水が流れる範囲のX位置座標。
 - RN：粗度係数。河川整備計画や浸水想定区域図報告書等に記載ある可能性あり。
 - Data：河道断面の測量データ保存パス
+  
 ![図2](https://github.com/user-attachments/assets/2b98c1cd-2f0d-4375-88d5-96f0cc7d612a)
+
 ### 河道断面の測量データ（xx.csv）
 
 - B列：X座標値
 - C列：Y座標値
 - ファイル名（xxの部分）は、何でもOK。1Ddmn.datのパスに記載できていれば可。
+
 ![図3](https://github.com/user-attachments/assets/7bbd6085-6e99-497d-93f7-f81a15094f8c)
+
 ## ②hahosei.dat、hrhosei.datの作成
 
 1. make_hoseidata.pyを実行
