@@ -41,7 +41,7 @@
 
 ---
 # 処理の解説
-### interpolate関数の説明
+## interpolate関数の説明
 
 ```python
 def interpolate(x1, y1, x2, y2, y):
@@ -75,10 +75,10 @@ y1 (x1, y1) ─ ─ ─ ─ ─ ┘
 
 
 
-### calculate_segment関数の説明
+## calculate_segment関数の説明
 
 
-1.  両点が水面下の場合
+### 1.  両点が水面下の場合
 ```bash
 water_level  - - - - - - - - - - - - - - 
                |                       |
@@ -99,7 +99,7 @@ if y1 <= water_level and y2 <= water_level:
 ```
 
 
-2.  片方が水面上、片方が水面下
+### 2.  片方が水面上、片方が水面下
 ```bash
                |
                |
