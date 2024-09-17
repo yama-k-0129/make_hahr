@@ -10,8 +10,9 @@
 （例）水が流下する範囲について、左岸側、右岸側それぞれを測量点（●）から設定する
 - 左岸側：Lkata
 - 右岸側：Rkata
+
 ![図1](https://github.com/user-attachments/assets/f54deb32-7af6-4984-af1e-9963dda1eec4)
-図　河道断面における水が流れる範囲の設定例
+- 図　河道断面における水が流れる範囲の設定例
 
 ### 1Ddmn.dat
 
