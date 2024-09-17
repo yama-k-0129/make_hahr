@@ -78,7 +78,7 @@ y1 (x1, y1) ─ ─ ─ ─ ─ ┘
 ### calculate_segment関数の説明
 
 
-- 両点が水面下の場合
+1.  両点が水面下の場合
 ```bash
 water_level  - - - - - - - - - - - - - - 
                |                       |
@@ -99,7 +99,7 @@ if y1 <= water_level and y2 <= water_level:
 ```
 
 
-- 片方が水面上、片方が水面下
+2.  片方が水面上、片方が水面下
 ```bash
                |
                |
@@ -113,7 +113,7 @@ y2 - - - - - - +
                |
                x1                      x2
 ```
-- 三角形の公式
+- 三角形の公式を使用
 ```python
    if y1 <= water_level:
       area = 0.5 * (x_intersect - x1) * (water_level - y1)
